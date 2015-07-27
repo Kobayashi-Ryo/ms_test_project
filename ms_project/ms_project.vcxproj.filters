@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{be680bf5-3c6c-4512-91e8-88e69d4fe785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System">
+      <UniqueIdentifier>{1c215c63-5cdc-4038-b2e3-e8e77bdf4582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App">
+      <UniqueIdentifier>{94063cd5-2457-4490-a47c-1be95404a304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\EntryPoint">
+      <UniqueIdentifier>{a3c65131-8985-4c7c-bd20-2702c2e5380c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common">
+      <UniqueIdentifier>{852ba11d-a5a8-4376-93f0-364b050bd7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl">
+      <UniqueIdentifier>{7f7dec12-b135-43d8-a1f2-0b2e12565243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\DirectXDevice">
+      <UniqueIdentifier>{35329b72-c1f3-480f-8c3d-c89457277a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\HardwareTimer">
+      <UniqueIdentifier>{a316c46f-8dfd-4409-9ab3-846f19407dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Input">
+      <UniqueIdentifier>{4cc62850-635c-448b-af08-4b312e60e6f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Input\Keyboard">
+      <UniqueIdentifier>{f7bf8147-8a90-459c-822c-0742ffc5a074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Input\Mouse">
+      <UniqueIdentifier>{bc8e3574-8012-4f66-a0b0-189411f26cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Debug">
+      <UniqueIdentifier>{3a9a6afc-ffc0-4f6d-9261-73e6270e80b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Resource">
+      <UniqueIdentifier>{e6bcad00-859e-4002-bd09-406caf392f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Sound">
+      <UniqueIdentifier>{c469713a-030e-4212-83ff-76f4efb3ca3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\System">
+      <UniqueIdentifier>{b05e101d-aea1-4ada-aa2c-670814a960b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Window">
+      <UniqueIdentifier>{4cd47ce8-8aa8-4857-bf88-57a068cb6f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Thread">
+      <UniqueIdentifier>{48c109fb-751b-4a60-921c-3c03c71201eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Interface">
+      <UniqueIdentifier>{19591907-ecca-48cb-b70c-96136ed066c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Interface\Input">
+      <UniqueIdentifier>{9f733a66-c02d-4ec8-aa7e-33f042a993e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Input\DirectXInputObject">
+      <UniqueIdentifier>{5c1e9657-dccc-41b9-b9ad-2c9c253d83c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Sound\Sound">
+      <UniqueIdentifier>{b53574fe-b797-48f3-aa8a-1d37f0bd9669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Sound\SubMix">
+      <UniqueIdentifier>{8377d390-17be-48ea-8c25-1e239009c258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common\math">
+      <UniqueIdentifier>{1973ffa7-a892-4881-bbd9-1e83fd5dd5f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework">
+      <UniqueIdentifier>{83d81623-c2fb-4908-9c1c-fc690cb28172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework\Layer">
+      <UniqueIdentifier>{0c3188a1-0a57-4118-a14d-ed118a4dab7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework\Scene">
+      <UniqueIdentifier>{2d90a266-6e77-4890-a521-d35be1fd78eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework\Debug">
+      <UniqueIdentifier>{9bd30cc7-34dd-41d4-813a-0ad7923b1f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework\Node">
+      <UniqueIdentifier>{298c93d6-5b34-464b-bf54-90cbd2dbf28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework\Shader">
+      <UniqueIdentifier>{b2aca923-9a12-43cd-9395-4d4f53d2c2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Resource\Texture">
+      <UniqueIdentifier>{86e7a268-e190-47d2-b248-1d46af7450aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Resource\IndexBuffer">
+      <UniqueIdentifier>{5dc559bc-1a4f-4161-b2a5-36ad34613e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Resource\VertexBuffer">
+      <UniqueIdentifier>{b3ebd0bb-ccb6-41a3-9bec-f437b6ccc525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Interface\Resource">
+      <UniqueIdentifier>{ba1da24c-3bda-419c-bdd1-771a8f10ec93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework\FrameBuffer">
+      <UniqueIdentifier>{6767ac2a-2339-4824-b8e6-e4c9a516d3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common\directx">
+      <UniqueIdentifier>{6f9d5a54-a340-464a-a8a6-a788e439e873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Resource\Declaration">
+      <UniqueIdentifier>{f8f7e2e9-abf7-48b8-a0c6-8f93855b7384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Resource\Font">
+      <UniqueIdentifier>{2dd03d77-6160-4ab9-b138-a8a9c3d80975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework\Application">
+      <UniqueIdentifier>{7ee44f18-587f-46f9-9865-a38472b38fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common\Ref">
+      <UniqueIdentifier>{aaa2e1de-57ef-4405-b5a6-055c2f20c4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework\Drawer">
+      <UniqueIdentifier>{678f53fd-7026-49da-9195-be6191869f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework\Effect">
+      <UniqueIdentifier>{80c1692d-47f4-4386-80dd-0fd957c47704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework\Drawer\Sprite">
+      <UniqueIdentifier>{d0cab6dc-cc58-4c83-bdf6-68e96db677a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework\Drawer\Model">
+      <UniqueIdentifier>{db689561-c640-4680-aec8-6af24d5835c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework\Drawer\Billboard">
+      <UniqueIdentifier>{6184725a-79e5-4f6c-88c2-b43c5b27c757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Resource\Shader">
+      <UniqueIdentifier>{d069360c-79bb-481a-b665-d7ccb195f67f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Interface\Resource\Texture">
+      <UniqueIdentifier>{16b84985-bd28-4c5d-be7d-95d199c7a92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Interface\Resource\IndexBuffer">
+      <UniqueIdentifier>{5a659911-0696-4cdf-90a8-390dc433e6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Interface\Resource\VertexBuffer">
+      <UniqueIdentifier>{d0f4007b-e88b-406c-b6f3-7e5e9a9f3e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Interface\Resource\Surface">
+      <UniqueIdentifier>{4ffad3f9-e764-4b0e-b229-22915ce6b16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Interface\Resource\Declaration">
+      <UniqueIdentifier>{5978b12d-0a55-4199-a090-d27aac3ce849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Interface\Resource\Shader">
+      <UniqueIdentifier>{87723313-70af-4808-ab61-d604b57a0c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Interface\Resource\Font">
+      <UniqueIdentifier>{4b3e784b-9c77-4cca-8b59-33076a07eba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Impl\Resource\Surface">
+      <UniqueIdentifier>{c93d6cd2-b827-417a-9bb1-83d7699d1f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework\Resource">
+      <UniqueIdentifier>{b381bd95-f6ed-4ef2-a5e1-ddd15473b7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\App\framework\Resource\Holder">
+      <UniqueIdentifier>{f784e430-b1b1-4e50-b722-ff0045264462}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\main.h">
+      <Filter>Source\EntryPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\common\DebugUtil.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\common\common.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\common\CUncopyable.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CSystem.h">
+      <Filter>Source\System\Impl\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CWindow.h">
+      <Filter>Source\System\Impl\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CThread.h">
+      <Filter>Source\System\Impl\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CHardwareTimer.h">
+      <Filter>Source\System\Impl\HardwareTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CDeviceHolder.h">
+      <Filter>Source\System\Impl\DirectXDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CInputManager.h">
+      <Filter>Source\System\Impl\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CInputObject.h">
+      <Filter>Source\System\Impl\Input\DirectXInputObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CKeyboard.h">
+      <Filter>Source\System\Impl\Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CMouse.h">
+      <Filter>Source\System\Impl\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CDebug.h">
+      <Filter>Source\System\Impl\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CDebugManager.h">
+      <Filter>Source\App\framework\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CSoundManager.h">
+      <Filter>Source\System\Impl\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\SoundDef.h">
+      <Filter>Source\System\Impl\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CSound.h">
+      <Filter>Source\System\Impl\Sound\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CSubMix.h">
+      <Filter>Source\System\Impl\Sound\SubMix</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CResourceManager.h">
+      <Filter>Source\System\Impl\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\common\msMath.h">
+      <Filter>Source\Common\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\common\math\MathDef.h">
+      <Filter>Source\Common\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CLostResource.h">
+      <Filter>Source\System\Impl\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\common\D3DX.h">
+      <Filter>Source\Common\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\common\DirectX.h">
+      <Filter>Source\Common\directx</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CTexture.h">
+      <Filter>Source\System\Impl\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CFont.h">
+      <Filter>Source\System\Impl\Resource\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\framework\CApp.h">
+      <Filter>Source\App\framework\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\framework.h">
+      <Filter>Source\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\common\CRef.h">
+      <Filter>Source\Common\Ref</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\framework\CScene.h">
+      <Filter>Source\App\framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\framework\CNode.h">
+      <Filter>Source\App\framework\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\framework\CLayer.h">
+      <Filter>Source\App\framework\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\IMouse.h">
+      <Filter>Source\System\Interface\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\IInputManager.h">
+      <Filter>Source\System\Interface\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\IKeyboard.h">
+      <Filter>Source\System\Interface\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\ISystem.h">
+      <Filter>Source\System\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\IWindow.h">
+      <Filter>Source\System\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\IDebug.h">
+      <Filter>Source\System\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\IDeviceHolder.h">
+      <Filter>Source\System\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\ISound.h">
+      <Filter>Source\System\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\IResource.h">
+      <Filter>Source\System\Interface\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CVertexBuffer.h">
+      <Filter>Source\System\Impl\Resource\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\ITexture.h">
+      <Filter>Source\System\Interface\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\TextureDesc.h">
+      <Filter>Source\System\Interface\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\IVertexBuffer.h">
+      <Filter>Source\System\Interface\Resource\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\IIndexBuffer.h">
+      <Filter>Source\System\Interface\Resource\IndexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\IndexBufferDesc.h">
+      <Filter>Source\System\Interface\Resource\IndexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\VertexBufferDesc.h">
+      <Filter>Source\System\Interface\Resource\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CIndexBuffer.h">
+      <Filter>Source\System\Impl\Resource\IndexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\IVertexDeclaration.h">
+      <Filter>Source\System\Interface\Resource\Declaration</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\VertexDeclarationDesc.h">
+      <Filter>Source\System\Interface\Resource\Declaration</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\CVertexDeclaration.h">
+      <Filter>Source\System\Impl\Resource\Declaration</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\IFont.h">
+      <Filter>Source\System\Interface\Resource\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\FontDesc.h">
+      <Filter>Source\System\Interface\Resource\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\ISurface.h">
+      <Filter>Source\System\Interface\Resource\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\framework\CSprite.h">
+      <Filter>Source\App\framework\Drawer\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\framework\Resource\CResourceHolder.h">
+      <Filter>Source\App\framework\Resource\Holder</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\framework\Resource.h">
+      <Filter>Source\App\framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\system\interface\IShader.h">
+      <Filter>Source\System\Interface\Resource\Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source\EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CSystem.cpp">
+      <Filter>Source\System\Impl\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CWindow.cpp">
+      <Filter>Source\System\Impl\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CThread.cpp">
+      <Filter>Source\System\Impl\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CHardwareTimer.cpp">
+      <Filter>Source\System\Impl\HardwareTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CDeviceHolder.cpp">
+      <Filter>Source\System\Impl\DirectXDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CInputManager.cpp">
+      <Filter>Source\System\Impl\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CInputObject.cpp">
+      <Filter>Source\System\Impl\Input\DirectXInputObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CKeyboard.cpp">
+      <Filter>Source\System\Impl\Input\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CMouse.cpp">
+      <Filter>Source\System\Impl\Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CDebug.cpp">
+      <Filter>Source\System\Impl\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CSoundManager.cpp">
+      <Filter>Source\System\Impl\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CSound.cpp">
+      <Filter>Source\System\Impl\Sound\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CSubMix.cpp">
+      <Filter>Source\System\Impl\Sound\SubMix</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CResourceManager.cpp">
+      <Filter>Source\System\Impl\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CTexture.cpp">
+      <Filter>Source\System\Impl\Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CFont.cpp">
+      <Filter>Source\System\Impl\Resource\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\framework\CApp.cpp">
+      <Filter>Source\App\framework\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\common\CRef.cpp">
+      <Filter>Source\Common\Ref</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\framework\CNode.cpp">
+      <Filter>Source\App\framework\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CVertexBuffer.cpp">
+      <Filter>Source\System\Impl\Resource\VertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CIndexBuffer.cpp">
+      <Filter>Source\System\Impl\Resource\IndexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\system\CVertexDeclaration.cpp">
+      <Filter>Source\System\Impl\Resource\Declaration</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\common\D3DX.cpp">
+      <Filter>Source\Common\directx</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\framework\Resource\CResourceHolder.cpp">
+      <Filter>Source\App\framework\Resource\Holder</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\framework\Resource.cpp">
+      <Filter>Source\App\framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\framework\CSprite.cpp">
+      <Filter>Source\App\framework\Drawer\Sprite</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
