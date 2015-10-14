@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{71B35D4B-4148-477C-86FC-0B46B488799B}</ProjectGuid>
+    <RootNamespace>ms_main</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(ProjectName)</OutDir>
+    <IncludePath>D:\HAL\AT14A248\MS\MS_test_repo\ms_404\ms_main\source;$(IncludePath)</IncludePath>
+    <TargetName>$(ProjectName)_D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(ProjectName)</OutDir>
+    <IncludePath>D:\HAL\AT14A248\MS\MS_test_repo\ms_404\ms_main\source;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="source\AppDelegate.h" />
+    <ClInclude Include="source\CGameStage.h" />
+    <ClInclude Include="source\CGameUI.h" />
+    <ClInclude Include="source\common\common.h" />
+    <ClInclude Include="source\common\CRef.h" />
+    <ClInclude Include="source\common\CUncopyable.h" />
+    <ClInclude Include="source\common\D3DX.h" />
+    <ClInclude Include="source\common\DebugUtil.h" />
+    <ClInclude Include="source\common\DirectX.h" />
+    <ClInclude Include="source\common\math\MathDef.h" />
+    <ClInclude Include="source\common\msMath.h" />
+    <ClInclude Include="source\CPlayer.h" />
+    <ClInclude Include="source\CSceneGame.h" />
+    <ClInclude Include="source\framework.h" />
+    <ClInclude Include="source\framework\CApplication.h" />
+    <ClInclude Include="source\framework\CBaseLight.h" />
+    <ClInclude Include="source\framework\CCamera.h" />
+    <ClInclude Include="source\framework\CCamera2D.h" />
+    <ClInclude Include="source\framework\CLayer.h" />
+    <ClInclude Include="source\framework\CMeshField.h" />
+    <ClInclude Include="source\framework\CNode.h" />
+    <ClInclude Include="source\framework\CScene.h" />
+    <ClInclude Include="source\framework\CSphere.h" />
+    <ClInclude Include="source\framework\CSprite.h" />
+    <ClInclude Include="source\framework\Vertex2D.h" />
+    <ClInclude Include="source\framework\Vertex3D.h" />
+    <ClInclude Include="source\main.h" />
+    <ClInclude Include="source\system\ColorBufferDesc.h" />
+    <ClInclude Include="source\system\DepthStencilBufferDesc.h" />
+    <ClInclude Include="source\system\FontDesc.h" />
+    <ClInclude Include="source\system\IColorBuffer.h" />
+    <ClInclude Include="source\system\IDebug.h" />
+    <ClInclude Include="source\system\IDepthStencilBuffer.h" />
+    <ClInclude Include="source\system\IDevice.h" />
+    <ClInclude Include="source\system\IDeviceHolder.h" />
+    <ClInclude Include="source\system\IFont.h" />
+    <ClInclude Include="source\system\IFrameBuffer.h" />
+    <ClInclude Include="source\system\IIndexBuffer.h" />
+    <ClInclude Include="source\system\IInputManager.h" />
+    <ClInclude Include="source\system\IKeyboard.h" />
+    <ClInclude Include="source\system\IMouse.h" />
+    <ClInclude Include="source\system\impl\CColorBuffer.h" />
+    <ClInclude Include="source\system\impl\CDebug.h" />
+    <ClInclude Include="source\system\impl\CDebugManager.h" />
+    <ClInclude Include="source\system\impl\CDepthStencilBuffer.h" />
+    <ClInclude Include="source\system\impl\CDevice.h" />
+    <ClInclude Include="source\system\impl\CDeviceHolder.h" />
+    <ClInclude Include="source\system\impl\CFont.h" />
+    <ClInclude Include="source\system\impl\CFrameBuffer.h" />
+    <ClInclude Include="source\system\impl\CHardwareTimer.h" />
+    <ClInclude Include="source\system\impl\CIndexBuffer.h" />
+    <ClInclude Include="source\system\impl\CInputManager.h" />
+    <ClInclude Include="source\system\impl\CInputObject.h" />
+    <ClInclude Include="source\system\impl\CKeyboard.h" />
+    <ClInclude Include="source\system\impl\CLostResource.h" />
+    <ClInclude Include="source\system\impl\CMouse.h" />
+    <ClInclude Include="source\system\impl\CResourceManager.h" />
+    <ClInclude Include="source\system\impl\CShader.h" />
+    <ClInclude Include="source\system\impl\CSound.h" />
+    <ClInclude Include="source\system\impl\CSoundManager.h" />
+    <ClInclude Include="source\system\impl\CSubMix.h" />
+    <ClInclude Include="source\system\impl\CSystem.h" />
+    <ClInclude Include="source\system\impl\CTexture.h" />
+    <ClInclude Include="source\system\impl\CThread.h" />
+    <ClInclude Include="source\system\impl\CVertexBuffer.h" />
+    <ClInclude Include="source\system\impl\CVertexDeclaration.h" />
+    <ClInclude Include="source\system\impl\CWindow.h" />
+    <ClInclude Include="source\system\impl\SoundDef.h" />
+    <ClInclude Include="source\system\IndexBufferDesc.h" />
+    <ClInclude Include="source\system\IResource.h" />
+    <ClInclude Include="source\system\IShader.h" />
+    <ClInclude Include="source\system\ISound.h" />
+    <ClInclude Include="source\system\ISurface.h" />
+    <ClInclude Include="source\system\ISystem.h" />
+    <ClInclude Include="source\system\ITexture.h" />
+    <ClInclude Include="source\system\IVertexBuffer.h" />
+    <ClInclude Include="source\system\IVertexDeclaration.h" />
+    <ClInclude Include="source\system\IWindow.h" />
+    <ClInclude Include="source\system\TextureDesc.h" />
+    <ClInclude Include="source\system\VertexBufferDesc.h" />
+    <ClInclude Include="source\system\VertexDeclarationDesc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\AppDelegate.cpp" />
+    <ClCompile Include="source\CGameStage.cpp" />
+    <ClCompile Include="source\common\CRef.cpp" />
+    <ClCompile Include="source\common\D3DX.cpp" />
+    <ClCompile Include="source\CPlayer.cpp" />
+    <ClCompile Include="source\CSceneGame.cpp" />
+    <ClCompile Include="source\framework\CApplication.cpp" />
+    <ClCompile Include="source\framework\CCamera.cpp" />
+    <ClCompile Include="source\framework\CCamera2D.cpp" />
+    <ClCompile Include="source\framework\CMeshField.cpp" />
+    <ClCompile Include="source\framework\CNode.cpp" />
+    <ClCompile Include="source\framework\CScene.cpp" />
+    <ClCompile Include="source\framework\CSphere.cpp" />
+    <ClCompile Include="source\framework\CSprite.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\system\impl\CColorBuffer.cpp" />
+    <ClCompile Include="source\system\impl\CDebug.cpp" />
+    <ClCompile Include="source\system\impl\CDepthStencilBuffer.cpp" />
+    <ClCompile Include="source\system\impl\CDevice.cpp" />
+    <ClCompile Include="source\system\impl\CDeviceHolder.cpp" />
+    <ClCompile Include="source\system\impl\CFont.cpp" />
+    <ClCompile Include="source\system\impl\CFrameBuffer.cpp" />
+    <ClCompile Include="source\system\impl\CHardwareTimer.cpp" />
+    <ClCompile Include="source\system\impl\CIndexBuffer.cpp" />
+    <ClCompile Include="source\system\impl\CInputManager.cpp" />
+    <ClCompile Include="source\system\impl\CInputObject.cpp" />
+    <ClCompile Include="source\system\impl\CKeyboard.cpp" />
+    <ClCompile Include="source\system\impl\CMouse.cpp" />
+    <ClCompile Include="source\system\impl\CResourceManager.cpp" />
+    <ClCompile Include="source\system\impl\CShader.cpp" />
+    <ClCompile Include="source\system\impl\CSound.cpp" />
+    <ClCompile Include="source\system\impl\CSoundManager.cpp" />
+    <ClCompile Include="source\system\impl\CSubMix.cpp" />
+    <ClCompile Include="source\system\impl\CSystem.cpp" />
+    <ClCompile Include="source\system\impl\CTexture.cpp" />
+    <ClCompile Include="source\system\impl\CThread.cpp" />
+    <ClCompile Include="source\system\impl\CVertexBuffer.cpp" />
+    <ClCompile Include="source\system\impl\CVertexDeclaration.cpp" />
+    <ClCompile Include="source\system\impl\CWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\shader\ps_3d.fx" />
+    <None Include="resource\shader\ps_default.fx" />
+    <None Include="resource\shader\vs_3d.fx" />
+    <None Include="resource\shader\vs_default.fx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

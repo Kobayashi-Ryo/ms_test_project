@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4dc8f21a-ea78-4635-a61e-ded128e5cec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{2f1f18e3-a639-4bb5-b06a-95f2fc2a776f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\system">
+      <UniqueIdentifier>{4ce57dfa-3b24-49f5-ba7a-da6973a1c248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\framework">
+      <UniqueIdentifier>{352d17fb-f302-4abb-9547-401a1c7f16a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\application">
+      <UniqueIdentifier>{2adf1010-e068-4c76-8de3-5b561ddb619d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\common">
+      <UniqueIdentifier>{49bc800f-83f7-42b1-9e11-1d6b8bba5200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\system\impl">
+      <UniqueIdentifier>{8ebc647b-e532-484a-851a-bb00bbf73a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\common\math">
+      <UniqueIdentifier>{4edbf431-4364-488c-a0e2-a81caf8cf86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\application\scene">
+      <UniqueIdentifier>{c10a154c-dfa8-4f6c-9ffd-a3093cffb2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\framework\camera">
+      <UniqueIdentifier>{9a0522d3-020e-43e5-8fc3-aa9747b34dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\framework\light">
+      <UniqueIdentifier>{965adae0-cd0e-4e09-8a55-dc14e1f5531c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\framework\drawer">
+      <UniqueIdentifier>{f942b27d-c845-4442-95d5-816825a1915b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\framework\drawer\sprite">
+      <UniqueIdentifier>{1de34c75-1728-4798-97de-2a597d62493c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\framework\drawer\meshfield">
+      <UniqueIdentifier>{0aecc7b1-031f-491e-a7d0-ae98a11ceb3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\system\impl\render_buffer">
+      <UniqueIdentifier>{9a418081-f15a-42cc-a1c2-8b90afb74a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\system\impl\render_buffer\framebuffer">
+      <UniqueIdentifier>{5ac30de6-a402-49ea-9703-51284d00fd32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\system\impl\render_buffer\colorbuffer">
+      <UniqueIdentifier>{7e4fd500-8ef7-4bab-b416-af2bd5a0adb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\system\impl\render_buffer\depthbuffer">
+      <UniqueIdentifier>{f9243e41-53ff-463b-a996-b2fe255b0f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\system\impl\buffer">
+      <UniqueIdentifier>{c0e201f6-847d-418c-a9dd-f3070cbe1941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\system\impl\input">
+      <UniqueIdentifier>{58a009e7-10d4-4954-8219-417778a8a860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\system\impl\texture">
+      <UniqueIdentifier>{d8c03fb5-bef4-42fd-8042-3d7ab909c24c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\framework\drawer\model">
+      <UniqueIdentifier>{d86ee968-1ed2-4317-a8ab-520d4d72e4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\framework\post_effect">
+      <UniqueIdentifier>{8f96f030-ae2a-42a3-b638-4bc44f5fcdce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\application\object">
+      <UniqueIdentifier>{4379924a-06c3-44fc-9187-c8fc1db14d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\application\object\player_manager">
+      <UniqueIdentifier>{9765e09c-6d2e-49cc-9bae-de519a8c1644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\application\object\player">
+      <UniqueIdentifier>{d99bff22-53de-49d0-8cec-42cc629c4d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\application\stage">
+      <UniqueIdentifier>{91465659-aab1-4313-a288-45c8864aa5ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\application\stage\point">
+      <UniqueIdentifier>{fa0a49b0-9617-4096-a5e8-5a371a695ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\application\stage\path">
+      <UniqueIdentifier>{97d384b6-58ce-4912-8279-eb94bc10a6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\application\stage\collision">
+      <UniqueIdentifier>{100af4f1-70ba-4ef6-900d-8ace356f9c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\application\ui">
+      <UniqueIdentifier>{7cb71414-8a91-4b2f-8456-e8cd3c51e189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\framework\drawer\sphere">
+      <UniqueIdentifier>{0b9fc0a9-26b6-474b-8ec4-424866615127}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\main.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IFont.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IIndexBuffer.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IInputManager.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IKeyboard.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IMouse.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IndexBufferDesc.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IResource.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\ISound.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\ISurface.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\ISystem.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\ITexture.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IVertexBuffer.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IVertexDeclaration.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IWindow.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\TextureDesc.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\VertexBufferDesc.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\VertexDeclarationDesc.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\FontDesc.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IDebug.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IDeviceHolder.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CDeviceHolder.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CFont.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CHardwareTimer.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CLostResource.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CResourceManager.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CSound.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CSoundManager.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CSubMix.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CSystem.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CThread.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CVertexDeclaration.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CWindow.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\SoundDef.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CDebug.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CDebugManager.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\common\CRef.h">
+      <Filter>source\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\common\CUncopyable.h">
+      <Filter>source\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\common\D3DX.h">
+      <Filter>source\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\common\DebugUtil.h">
+      <Filter>source\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\common\DirectX.h">
+      <Filter>source\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\common\common.h">
+      <Filter>source\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\common\math\MathDef.h">
+      <Filter>source\common\math</Filter>
+    </ClInclude>
+    <ClInclude Include="source\common\msMath.h">
+      <Filter>source\common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\framework.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\framework\CLayer.h">
+      <Filter>source\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="source\framework\CNode.h">
+      <Filter>source\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="source\framework\CScene.h">
+      <Filter>source\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AppDelegate.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\framework\CApplication.h">
+      <Filter>source\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="source\framework\CCamera.h">
+      <Filter>source\framework\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="source\framework\CBaseLight.h">
+      <Filter>source\framework\light</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CSceneGame.h">
+      <Filter>source\application\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="source\framework\CSprite.h">
+      <Filter>source\framework\drawer\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="source\framework\CMeshField.h">
+      <Filter>source\framework\drawer\meshfield</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CDevice.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IDevice.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IShader.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CShader.h">
+      <Filter>source\system\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IFrameBuffer.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CIndexBuffer.h">
+      <Filter>source\system\impl\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CVertexBuffer.h">
+      <Filter>source\system\impl\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CInputManager.h">
+      <Filter>source\system\impl\input</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CInputObject.h">
+      <Filter>source\system\impl\input</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CKeyboard.h">
+      <Filter>source\system\impl\input</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CMouse.h">
+      <Filter>source\system\impl\input</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CTexture.h">
+      <Filter>source\system\impl\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CFrameBuffer.h">
+      <Filter>source\system\impl\render_buffer\framebuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CColorBuffer.h">
+      <Filter>source\system\impl\render_buffer\colorbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\impl\CDepthStencilBuffer.h">
+      <Filter>source\system\impl\render_buffer\depthbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IColorBuffer.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\ColorBufferDesc.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\DepthStencilBufferDesc.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system\IDepthStencilBuffer.h">
+      <Filter>source\system</Filter>
+    </ClInclude>
+    <ClInclude Include="source\framework\Vertex2D.h">
+      <Filter>source\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="source\framework\CCamera2D.h">
+      <Filter>source\framework\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="source\framework\Vertex3D.h">
+      <Filter>source\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGameStage.h">
+      <Filter>source\application\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CGameUI.h">
+      <Filter>source\application\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CPlayer.h">
+      <Filter>source\application\object\player</Filter>
+    </ClInclude>
+    <ClInclude Include="source\framework\CSphere.h">
+      <Filter>source\framework\drawer\sphere</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CFont.cpp">
+      <Filter>source\system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CHardwareTimer.cpp">
+      <Filter>source\system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CResourceManager.cpp">
+      <Filter>source\system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CSound.cpp">
+      <Filter>source\system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CSoundManager.cpp">
+      <Filter>source\system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CSubMix.cpp">
+      <Filter>source\system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CSystem.cpp">
+      <Filter>source\system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CThread.cpp">
+      <Filter>source\system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CVertexDeclaration.cpp">
+      <Filter>source\system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CWindow.cpp">
+      <Filter>source\system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CDebug.cpp">
+      <Filter>source\system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CDeviceHolder.cpp">
+      <Filter>source\system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common\CRef.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common\D3DX.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\framework\CNode.cpp">
+      <Filter>source\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="source\framework\CApplication.cpp">
+      <Filter>source\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\framework\CCamera.cpp">
+      <Filter>source\framework\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="source\framework\CScene.cpp">
+      <Filter>source\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CSceneGame.cpp">
+      <Filter>source\application\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\framework\CSprite.cpp">
+      <Filter>source\framework\drawer\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CDevice.cpp">
+      <Filter>source\system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CShader.cpp">
+      <Filter>source\system\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CIndexBuffer.cpp">
+      <Filter>source\system\impl\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CVertexBuffer.cpp">
+      <Filter>source\system\impl\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CInputManager.cpp">
+      <Filter>source\system\impl\input</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CInputObject.cpp">
+      <Filter>source\system\impl\input</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CKeyboard.cpp">
+      <Filter>source\system\impl\input</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CMouse.cpp">
+      <Filter>source\system\impl\input</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CTexture.cpp">
+      <Filter>source\system\impl\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CFrameBuffer.cpp">
+      <Filter>source\system\impl\render_buffer\framebuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CColorBuffer.cpp">
+      <Filter>source\system\impl\render_buffer\colorbuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\system\impl\CDepthStencilBuffer.cpp">
+      <Filter>source\system\impl\render_buffer\depthbuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\framework\CCamera2D.cpp">
+      <Filter>source\framework\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="source\framework\CMeshField.cpp">
+      <Filter>source\framework\drawer\meshfield</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CGameStage.cpp">
+      <Filter>source\application\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CPlayer.cpp">
+      <Filter>source\application\object\player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\framework\CSphere.cpp">
+      <Filter>source\framework\drawer\sphere</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\shader\vs_default.fx">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="resource\shader\ps_default.fx">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="resource\shader\vs_3d.fx">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="resource\shader\ps_3d.fx">
+      <Filter>shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
